@@ -5,6 +5,7 @@ date: "10/14/2020"
 output: html_document
 ---
 
+
 ```{r setup, include=TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -25,13 +26,13 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+Wilson et. al. have suggested several good practices for data management in scientific computing. Firstly we should save the raw data and ensure that raw data are backed up in more than one location. During analysis, we need to create the data we wish to see in the world and create analysis-friendly data. In R Studio, we not only have a specific panel for files where we can easily access our data in the computer but also can conveniently import outside data from online repositories. They also suggested to record all the steps used to process data as well as anticipate the need to use multiple tables, and use a unique identifier for every record. It would be extremely helpful if you do same or similar types of analysis on different datasets, so that you could efficiently perform data analysis at each time while ensuring rigor and reproducibility. In R Studio, we could simply save all the scripts used as a project which could be applied to another dataset next time. Finally, they suggested submitting data to a reputable DOI-issuing repository so that others can access and cite it. For example, Github, Figshare, Dryad, and Zenodo are some useful websites.
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
 
+Result <- sqrt(4^13)
+Result
 
 4) Push this homework to the GitHub repository for the homework. 
-
-
-
 
 
